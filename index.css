@@ -168,7 +168,7 @@ code {
 
 
 
-.counter-container{
+/* .counter-container{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -194,4 +194,226 @@ code {
 
 .counter-button:hover{
   background-color:  hsl(197, 100%, 58%);;
+} */
+
+
+
+
+/* 10. 02:13:16 color picker app */
+
+/* body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.color-display p{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+} */
+
+/* 10. 02:13:16 color picker app */
+
+
+/* 15. 03:01:42 to-do list app */
+
+/* body{
+  background-color: aqua;
+}
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover{
+  background-color: hsl(125, 47%, 54%);
+}
+.delete-button{
+  background-color: hsl(0, 79%, 56%);
+}
+.delete-button:hover{
+  background-color: hsl(0, 79%, 56%);
+}
+.move-button{
+  background-color: hsl(209, 79%, 56%);;
+}
+.move-button:hover{
+  background-color: hsl(209, 79%, 56%);;
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 9%, 0.5);;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 97%);
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  display: flex;
+  align-items: center;
+  
+}
+.text{
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+} */
+
+
+
+/* 17. 03:44:08 digital clock app  */
+
+/* body{
+  background-image: url(assets/20260319_161500.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0; */
+
+/* OPTIONAL */
+  /* display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+
+}
+.clock{
+  color: aliceblue;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px black;
+} */
+
+/* 18. 04:00:08 useContext() hook */
+/* .box{
+  border: 3px solid;
+  padding: 25px;
+} */
+
+
+/* 20. 04:23:01 stopwatch app */
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: blanchedalmond;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 25px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button{
+  background-color: green;
+}
+.start-button:hover{
+  background-color: greenyellow;
+}
+.stop-button{
+  background-color: red;
+}
+.stop-button:hover{
+  background-color: red;
+}
+.reset-button{
+  background-color: aqua;
+}
+.reset-button:hover{
+  background-color: red;
 }
